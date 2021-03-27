@@ -1,0 +1,38 @@
+/* azul - #45B4E0   +   amarelo - ##F0CE6D */
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+body {
+    background-color: #fadb85;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.61) 5px 5px 10px;
+    font: normal 15pt arial;
+}
+
+h1 {
+    font-family: Sigmae One;
+    color: #2B3065;
+    font-size: 40px;
+}
+
+input {
+    background-color: #fffcdc;
+}
+
+div {
+    font-size: 25px;
+}
+
+footer {
+    color:#05000077;
+    font-size: 22px;
+}

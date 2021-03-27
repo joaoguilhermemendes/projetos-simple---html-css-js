@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+
+        <h1>Conversor de medidas</h1>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/balance-scale-1755167-1490379.png" alt="Foto balança">
+        
+
+        <p>Nome:
+            <input id="nome" type="text"></p>
+        <p>Valor em metros(m):
+            <input id="valor1" type="number"></p>
+
+        
+        <input type="button" value="Milímetro" onclick="milimetro()">
+        <input type="button" value="Centímetro" onclick='centimetro()'>
+        <input type="button" value="Decímetro" onclick='decimetro()'>
+        <input type="button" value="Decâmetro" onclick="decametro()">
+        <input type="button" value="Hectômetro" onclick='hectometro()'>
+        <input type="button" value="Quilômetro" onclick='quilometro()'>
+        <br><br>
+
+    </section><br><br>
+    
+    <section><div id="res">Digite um valor...</div></section><br>
+    
+
+</body>
+<footer>@JoãoGuilhermeMendes</footer>
+
+<script src="script.js"></script>
+</html>
