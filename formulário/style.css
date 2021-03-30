@@ -80,7 +80,8 @@ select {
 button {
     width: 350px;
     height: 40px;
-    background-color: #2DCB70;   
+    background-color: #2DCB70; 
+    margin-bottom: 15px;
 }
 
 #text {
@@ -91,6 +92,7 @@ button {
 }
 
 #aviso {
+    margin-top: 40px;
     font-size: 12px;
 }
 

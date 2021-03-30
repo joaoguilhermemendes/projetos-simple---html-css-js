@@ -1,23 +1,22 @@
 function cadastrar() {
-    
-    
-    alert('oi')
-    var nome1 = document.getElementById('nome1').textContent;
-    var email1 = document.getElementById('email1')
-    var tel1 = document.getElementById('tel1')
+    var nome1 = document.getElementById('nome1').value
+    var email1 = document.getElementById('email1').value
+    var tel1 = document.getElementById('tel1').value
     var genero = document.getElementById('info1')
-    //var res = document.getElementById('res')
+    var res = document.getElementById('res')
 
-    res.innerHTML = nome1
-    alert(nome1)
-    //alert(email1)
-    //alert(tel1)
-    //alert(genero)
-    //alert(res1)
+    if (nome1.length == 0 || email1.length == 0 || tel1.length == 0 ) {
+        res.innerHTML = '[ERRO] Informações Erradas ou Incompatíveis'
+        res.style.color = '#AB1C2F'
+        res.style.textAlign = 'center'
+        res.style.fontSize = '15px'
+    }
 
-    //if (nome.value == 0 || email.value == 0 || tel.value == 0 || genero.value == 0) {
-    //    res.innerText = '[ERRO] Informações Erradas'}
-        
+    else {
+        res.innerHTML = 'Cadastro realizado'
+        res.style.color = 'green'
+        res.style.textAlign = 'center'
+    }
 
     
 }
