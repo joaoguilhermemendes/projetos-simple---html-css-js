@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    color: white;
+    font: icon 20pt arial;
+}
+
+body {
+    background-color: rgb(52, 174, 245);
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: rgba(5, 5, 5, 0.753) 5px 5px 10px;
+    margin: auto;
+
+}
+
+#flista {
+    width: 150px;
+    text-align: left;
+}
+
+#add {
+    text-align: left;
+}
