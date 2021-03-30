@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div id="topo">
+        <p> <a href="livro.pdf" download="livro.pdf" type="application/pdf"><img src="download-icon.png" alt="Download"></a></p>
+        <p>Basta clicar aqui para fazer o download para receber a versão PDF do conteúdo</p><br>
+        </div><hr><br>
+
+        <p id="nome">Nome* <br>
+        <input id="nome1" type="text"> <br><br></p>
+
+        <p id="email">Email* <br>
+        <input id="email1" type="text"> <br> <br></p>
+
+        <p id="tel">Telefone* <br>
+        <input id="tel1" type="text"> <br> <br></p>
+
+        <p id="infos">Gênero favorito*     
+        
+            <select name="generos">
+            <option value="todos">Todos</option>
+            <option value="romance">Romance</option>
+            <option value="aventura">Aventura</option>
+            <option value="biografia">Biografia</option>
+            <option value="ficção-cientifica">Ficção Científica</option>
+            </select><br><br><br></p>
+
+        <button onclick="cadastrar()">FAZER CADASTRO</button><br><br>
+
+        <div id="res">...</div>
+
+        <p id="aviso">*Prometemos que nenhuma das informações cadastradas serão compartilhadas com outras pessoas ou empresas. </p>
+
+    </section><br>
+
+<footer>@JoãoGuilhermeMendes</footer>
+<script src="script.js"></script>
+    
+</body>
+</html>

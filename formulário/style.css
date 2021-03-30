@@ -1,0 +1,104 @@
+/* #1B2431 - azul escuro
+#1E488F - azul medio
+#016795 - azul claro */
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+body {
+    background-color: #1B2431;
+    font: normal 25pt arial;
+}
+
+#nome{
+    font-family: Antic Slab;
+}
+
+#email{
+    font-family: Antic Slab;
+}
+
+#tel{
+    font-family: Antic Slab;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font: normal 15pt arial;
+   
+}
+
+#infos{
+    font-family: Antic Slab;
+}
+
+#nome1 {
+    width: 300px;
+    height: 20px;
+    background-color: #e0ffed;
+}
+
+#email1 {
+    width: 300px;
+    height: 20px;
+    background-color: #e0ffed;
+}
+
+#tel1 {
+    width: 300px;
+    height: 20px;
+    background-color: #e0ffed;
+}
+
+img {
+    width: 5em;
+    
+}
+
+#topo {
+    font-size: 16px;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.61) 5px 5px 10px;
+    font: normal 15pt arial;
+}
+
+select {
+    background-color: #e0ffed;
+    width: 120px;
+    height: 25px;
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    background-color: #2DCB70;   
+}
+
+#text {
+    color:rgba(0, 0, 0, 0.836);
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+#aviso {
+    font-size: 12px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: normal 15pt arial;
+    font-style: italic;
+    margin: auto;
+
+}
